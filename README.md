@@ -30,7 +30,6 @@ Open each file in the Intergrated Development environment then build and run the
 * [gcc](https://gcc.gnu.org/)
   
 ## Contributing
-HaCKCaD group
 
 1. Fork it (<https://github.com/0x6f736f646f/mechatronics_Cpp_programming.git>)
 2. Clone your own fork (`git clone https://github.com/{your username}/mechatronics_Cpp_programming.git`)
