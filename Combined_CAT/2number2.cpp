@@ -2,10 +2,7 @@
 
 using namespace std;
 
-float addition(float num1, float num2)
-{
-	return num1 + num2;
-}
+float addition(float, float);
 
 int main()
 {
@@ -15,4 +12,9 @@ int main()
 	cin >> number2;
 	cout << "The sum is : " << addition(number1, number2) << endl;
 	return 0;
+}
+
+float addition(float num1, float num2)
+{
+	return num1 + num2;
 }
