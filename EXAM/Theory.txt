@@ -1,0 +1,44 @@
+b) Comments
+	(i)
+	// This is a single line comment
+	(ii)
+	/*
+	This is a
+	multiline comment
+	*/
+c) Local vs Global variable
+
+d) Inheritance
+
+e) Forms of Inheritance
+
+f) Difference between while and do-while loop
+	(i) A while loop will check the condition first before executing the content while a do while loop executes the content of the loop before it checks the condition of the while
+	(ii) A while loop never executes if condition is false while a do-while loop executes at least once even if the condition is false
+	(iii) A while loop does not have a semicolon at the end of statement while while a do while loop has a semicolon at the end of while keyword
+
+
+QUESTION 2
+a)	(i)		sub == 9
+	(ii)	sub == 10
+
+c)	variable declaration is for informing to the compiler the following information: name of the variable, type of value it holds and initial value if any it takes. No space is 			reserved in memory. What compiler needs to accept reference to the variable
+	extern int a;
+	definition says where the variable gets stored in memory. Addition of declarations but space reservation is done. It is what the linker needs to link references to that variable
+	int a;
+
+
+
+QUESTION 3
+a)	a constructor is a special member function of a class that is executed new objects of that class are created
+	It has the same name as the class and doesn't have a return type
+
+b)	Parent class is the base class whose properties are inherited while the child class inherits properties of other class
+
+e) 	(i)		Private
+	(ii)	Protected
+	(iii)	Public
+
+	Private
+
+	Protected and Private
