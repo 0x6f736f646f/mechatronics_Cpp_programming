@@ -1,3 +1,11 @@
+QUESTION 1
+a)	 (i) iostream provides basic input and output functions for C++ programs
+			it is the standard inout and output library standard
+	(ii) it is an object that is used to acceot inout from the standard inout device e.g Keyboard and stores it to a variable
+	(iii) is an expression that can produce effect standard output string in a C++ code and declared in the iostream file
+	(iv) name
+
+
 b) Comments
 	(i)
 	// This is a single line comment
@@ -7,10 +15,44 @@ b) Comments
 	multiline comment
 	*/
 c) Local vs Global variable
+	Local variable is declared within a function
+	Global variable is declared outside a function
+	Local variable used only inside a function which they are declared
+	Global variable can be used outside a function
+	Local variable is created when function block is entered and destroyed upon exit
+	Global variable remains in existence for the total time your program is running
+	Local variable are stored in stacks unless specified
+	Global variable are stored in a fixed location defined by the compiler
+	Local variable is accessed only by statements inside the function
+	Global variable is accessed by any statement in the entire program
 
-d) Inheritance
+
+d) Inheritance is the mechanism in which one class acquires the properties of another class
 
 e) Forms of Inheritance
+	(i) Single inheritance
+			In this inheritance, a derived class is created from a single base class.
+			In the given example, Class A is the parent class and Class B is the child class since Class B inherits the features and behavior of the parent class A.
+
+	(ii) Multi-level inheritance
+			In this inheritance, a derived class is created from another derived class.
+			In the given example, class c inherits the properties and behavior of class B and class B inherits the properties and behavior of class B. So, here A is the parent class of B and class B is the parent class of C. So, here class C implicitly inherits the properties and behavior of class A along with Class B i.e there is a multilevel of inheritance.
+
+	(iii) Multiple inheritance
+			In this inheritance, a derived class is created from more than one base class.
+			In the given example, class c inherits the properties and behavior of class B and class A at same level. So, here A and Class B both are the parent classes for Class C.
+
+	(iv) Multipath inheritance
+			In this inheritance, a derived class is created from another derived classes and the same base class of another derived classes.
+			In the given example, class D inherits the properties and behavior of class C and class B as well as Class A. Both class C and class B inherits the Class A. So, Class A is the parent for Class B and Class C as well as Class D. So it's making it Multipath inheritance.
+
+	(v) Hierarchical inheritance
+			In this inheritance, more than one derived classes are created from a single base class and futher child classes act as parent classes for more than one child classes.
+			In the given example, class A has two childs class B and class D. Further, class B and class C both are having two childs - class D and E; class F and G respectively.
+
+	(vi) Hybrid inheritance
+			This is combination of more than one inheritance. Hence, it may be a combination of Multilevel and Multiple inheritance or Hierarchical and Multilevel inheritance or Hierarchical and Multipath inheritance or Hierarchical, Multilevel and Multiple inheritance.
+			Hence hybrid inheritance with a combination of multiple or multipath inheritances.
 
 f) Difference between while and do-while loop
 	(i) A while loop will check the condition first before executing the content while a do while loop executes the content of the loop before it checks the condition of the while
