@@ -48,7 +48,7 @@ e) Forms of Inheritance
 
 	(v) Hierarchical inheritance
 			In this inheritance, more than one derived classes are created from a single base class and futher child classes act as parent classes for more than one child classes.
-			In the given example, class A has two childs class B and class D. Further, class B and class C both are having two childs - class D and E; class F and G respectively.
+			In the given example, class A has two childs class B and class C. Further, class B and class C both are having two childs - class D and E; class F and G respectively.
 
 	(vi) Hybrid inheritance
 			This is combination of more than one inheritance. Hence, it may be a combination of Multilevel and Multiple inheritance or Hierarchical and Multilevel inheritance or Hierarchical and Multipath inheritance or Hierarchical, Multilevel and Multiple inheritance.
