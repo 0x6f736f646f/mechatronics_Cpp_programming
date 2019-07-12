@@ -69,9 +69,38 @@ c)	variable declaration is for informing to the compiler the following informati
 	definition says where the variable gets stored in memory. Addition of declarations but space reservation is done. It is what the linker needs to link references to that variable
 	int a;
 
-
-
 QUESTION 3
+a)	call by value
+		actual copy of arguments are passed to formal arguments and changes made aren't reflected in the actual arguments
+		actual arguments remain preserved and there is no chance of modification
+	call by reference
+		location of actual arguments are passed to formal arguments and any changes made are reflected in the actual arguments
+		actual arguments will not be preserved
+
+c)	 (i)	he word polymorphism means having many forms. Typically, polymorphism occurs when there is a hierarchy of classes and they are related by inheritance.
+			It means that a call to a member function will cause a different function to be executed depending on the type of object that invokes the function.
+
+	(ii)	bstraction means displaying only essential information and hiding the details. Data abstraction refers to providing only essential information about the data to the 				outside world, hiding the background details or implementation.
+
+	(iii)	Unary operator: are operators that act upon a single operand to produce a new value.
+				unary minus(-)
+			    increment(++)
+			    decrement(- -)
+			    NOT(!)
+			    Addressof operstor(&)
+			    sizeof()
+
+	(iv)	Is a series of elements of the same type placed in memory locations that can be individually referenced. The idea is to store multiple items of same type together.
+				int my_array[5] = {1,2,3,4,5};
+
+	(v)		Pointers store address of variables or a memory location. 
+				// An example pointer "ptr" that holds address of an integer variable or holds address of a memory whose value(s) can be accessed as integer values through "ptr"
+				int *ptr;
+				int x = 10;
+				ptr = &x;
+
+
+QUESTION 4
 a)	a constructor is a special member function of a class that is executed new objects of that class are created
 	It has the same name as the class and doesn't have a return type
 
